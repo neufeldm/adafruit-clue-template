@@ -1,17 +1,18 @@
 [package]
-authors = ["Michael Neufeld <mj9eld@gmail.com>"]
+authors = ["your e-mail here"]
 categories = ["embedded", "hardware-support", "no-std"]
-description = "BSP for Adafruit Clue."
-license = "MIT OR Apache-2.0"
+description = "your description here"
+license = "your license here"
 keywords = ["arm", "cortex-m", "nrf52", "hal"]
-name = "clue-environment"
+name = "your_application_name"
 version = "0.0.1"
 edition = "2018"
 
 [dependencies]
 nrf52840-hal = "0.15.1"
 embedded-hal = "0.2.7"
-adafruit-clue = { git = "https://github.com/neufeldm/adafruit-clue" }
+#adafruit-clue = { git = "https://github.com/neufeldm/adafruit-clue", branch = "s140version", features = ["nrf-s140-v6"] }
+#adafruit-clue = { git = "https://github.com/neufeldm/adafruit-clue", branch = "s140version", features = ["nrf-s140-v7"] }
 cortex-m = { version = "0.7.4", features = ["critical-section-single-core"] }
 cortex-m-rt = ">=0.6, <0.8"
 nb = "1.0.0"
