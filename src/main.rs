@@ -4,7 +4,6 @@
 // Sample app that reads a bunch of Adafruit Clue sensors
 // and displays them on the screen. Modify as needed.
 
-
 use adafruit_clue::{Board, TFT};
 use cortex_m_rt;
 use embedded_hal::blocking::delay::DelayMs;
